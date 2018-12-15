@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center_vertical" android:paddingRight="?android:attr/scrollbarSize" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="?android:attr/listPreferredItemHeight">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="6dp" android:layout_marginRight="6dp" android:layout_marginBottom="6dp" android:layout_weight="1">
+        <TextView android:textAppearance="?android:attr/textAppearanceListItem" android:ellipsize="marquee" android:id="@+id/error_report_field_name" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+        <TextView android:textAppearance="?android:attr/textAppearanceListItemSmall" android:textColor="?android:attr/textColorSecondary" android:ellipsize="end" android:id="@+id/error_report_field_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="10" android:layout_below="@+id/error_report_field_name" android:layout_alignLeft="@+id/error_report_field_name"/>
+    </RelativeLayout>
+</LinearLayout>
